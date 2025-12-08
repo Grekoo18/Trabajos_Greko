@@ -1,0 +1,23 @@
+{
+  "name": "ejemplos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "banco": "ts-node src/banco",
+    "estudiante": "ts-node src/Tarea2",
+    "auto": "ts-node src/auto",
+    "restaurante": "ts-node src/restaurante",
+    "hospital": "ts-node src/hospital"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "save-dev": "^0.0.1-security",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
